@@ -1,1 +1,18 @@
 @import "neat";
+
+.default-neat-grid {
+  @include grid-container;
+}
+
+.default-neat-grid__a-single-column {
+  @include grid-column(1);
+}
+
+article {
+  // @include grid-column(8);
+  @include grid-visual;
+}
+
+h1, aside {
+  @include grid-column(4);
+}
