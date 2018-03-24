@@ -1,4 +1,8 @@
 @import "neat";
+@import "normalize.css";
+// @import url('https://fonts.googleapis.com/css?family=Space+Mono');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
 
 .default-neat-grid {
   @include grid-container;
@@ -8,11 +12,28 @@
   @include grid-column(1);
 }
 
+body {
+  @include grid-container;
+  @include grid-visual;
+
+}
+
 article {
-  // @include grid-column(8);
   @include grid-visual;
 }
 
-h1, aside {
-  @include grid-column(4);
+#about {
+  color: rgb(73, 73, 73);
+  // font-family: 'Space Mono', monospace;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  margin-top: 100px;
+  font-size: 2em;
+  @include grid-column(8);
+  @include grid-push(2);
+}
+
+a {
+  color: #666;
 }
