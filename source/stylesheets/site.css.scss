@@ -4,16 +4,11 @@
 
 body {
   @include grid-container;
-  @include grid-visual;
-
-}
-
-article {
-  @include grid-visual;
+  background-color: #130f30;
 }
 
 #about {
-  color: rgb(73, 73, 73);
+  color: #fff;
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   margin-top: 100px;
@@ -23,5 +18,9 @@ article {
 }
 
 a {
-  color: #666;
+  color: #fff;
+}
+
+.clients {
+  font-size: 18px;
 }
