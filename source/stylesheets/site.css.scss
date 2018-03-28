@@ -7,10 +7,10 @@ body {
   background-color: #130f30;
 }
 
-#about {
+article {
   color: #fff;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   margin-top: 100px;
   font-size: 2em;
   @include grid-column(8);
@@ -19,8 +19,4 @@ body {
 
 a {
   color: #fff;
-}
-
-.clients {
-  font-size: 18px;
 }
