@@ -24,7 +24,8 @@ article {
   @include grid-push(2);
 
   span {
-    color: rgba(255, 255, 255, 0.9);
+    color: #c43e36;
+    // color: rgba(255, 255, 255, 0.9);
     font-weight: 700;
   }
 }
