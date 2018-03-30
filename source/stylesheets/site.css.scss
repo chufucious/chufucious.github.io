@@ -34,7 +34,7 @@ article {
     transform: translateX(-100%);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
 }
 
@@ -50,7 +50,7 @@ section {
   border-radius: 50%;
   width: 800px;
   height: 800px;
-  animation: 200s moveCircle;
+  animation: 400s moveCircle;
 }
 
 a {
