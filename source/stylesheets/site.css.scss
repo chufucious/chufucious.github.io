@@ -1,12 +1,13 @@
 @import "neat";
 @import "normalize.scss";
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300|IBM+Plex+Sans:500');
 
 
 body {
   @include grid-container;
-  font-size: 24px;
+  font-size: 20px;
   color: #000;
+  text-rendering: optimizeLegibility;
 }
 
 article {
